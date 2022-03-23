@@ -8,13 +8,15 @@ class Footer extends Component {
   render() {
     
    
-    return <footer className="bd-footer py-5 mt-5">
+    return (
+   
+      <footer className="bd-footer py-5 mt-5">
       {/* <img src="img/handsmenor.png"></img> */}
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-3 mb-3">
             <a className="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
-             
+             <img src="img/logo.png" width="100"></img>
               <span className="fs-5 px-2"></span>
             </a>
             
@@ -39,12 +41,15 @@ class Footer extends Component {
               <li className="mb-2"><a href="#">São Paulo - SP</a></li>
             </ul>
           </div>
-          
+         
          
         </div>
       
       </div>
+
     </footer>
+
+    )
   }
 }
 

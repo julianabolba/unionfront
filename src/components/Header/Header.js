@@ -28,16 +28,16 @@ class Header extends Component {
               <a className="nav-link p-2" href="./sobrenos">Sobre nós</a>
             </li>
             <li className="nav-item col-6 col-md-auto">
-              <a className="nav-link p-2" href="./seusdireitos" >Seus direitos</a>
+              <a className="nav-link p-2" href="./Seusdireitos" >Seus direitos</a>
             </li>
             <li className="nav-item col-6 col-md-auto">
               <a className="nav-link p-2" href="./Footer">Contato</a>
             </li>
             <li className="nav-item col-6 col-md-auto">
-              <a className="nav-link p-2" href="./usuario" rel="noopener noreferrer">Procuro ajuda</a>
+              <a className="nav-link p-2" href="./Usuario" rel="noopener noreferrer">Procuro ajuda</a>
             </li>
             <li className="nav-item col-6 col-md-auto">
-              <a className="nav-link p-2" href="./profissional" rel="noopener noreferrer">Sou profissional</a>
+              <a className="nav-link p-2" href="./Profissional" rel="noopener noreferrer">Sou profissional</a>
             </li>
 
              
