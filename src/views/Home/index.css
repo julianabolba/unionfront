@@ -1,6 +1,7 @@
 
 h1, p{
- padding-top: 40px;
+ padding: 40px 20px 10px 20px;
+ 
     
     
 }
@@ -39,7 +40,7 @@ a.btn {
 }
 .container{
     /*efeito glass*/
-    padding: 10px; 
+    padding: 5px; 
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 6px );
@@ -97,11 +98,11 @@ a.btn {
     padding: .6em 1.2em;
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
    #mini-banners {
-       margin-top: -6em;
+       margin-top: 2em; 
    }
-}
+}*/
 #info-content {
     margin-bottom: 4em;
     padding: 4em 1em;
@@ -135,30 +136,47 @@ li {
   }
 
 li#top{
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .card{
+    
     text-align: justify;
 }
 
 .card-title{
       font-size: 2em;  }
 
-.card-img-top{
-    margin-top: 0;
-    vertical-align: top;
+.imagem{
+    margin: 10px 60px 5px 60px;
+    
     
 }
 
 .card-body{
+   
     text-align: center;
     margin-top: 0;
     padding-top: 0;
+    
 }
 .card-text{
     padding-top: 0;
+
 }
 
+.card-header {
+   
+    font-size: 1.5em;
 
+    
+
+}
+ i {
+     padding-top: 10px;
+ }
+
+ .container#info {
+     background-color: #f0bf3f;
+ }
 

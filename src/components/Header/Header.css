@@ -4,6 +4,10 @@ header#bdNavbar{
     padding: 0.75rem 0;
     
 }
+img#logo {
+    height: 100px;
+    width: auto;
+}
 
 input.form-control{
     background-color: rgb(207, 210, 212);
